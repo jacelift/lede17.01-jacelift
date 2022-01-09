@@ -437,13 +437,6 @@ define Device/tl-wr740n-v4
 endef
 TARGET_DEVICES += tl-wr740n-v4
 
-define Device/tl-wr740n-v5
-  $(Device/tl-wr740n-v4)
-  DEVICE_TITLE := TP-LINK TL-WR740N/ND v5
-  TPLINK_HWID := 0x07400005
-endef
-TARGET_DEVICES += tl-wr740n-v5
-
 define Device/tl-wr740n-v6
   $(Device/tplink-8mlzma)
   DEVICE_TITLE := TP-LINK TL-WR740N/ND v6
