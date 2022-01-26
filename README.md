@@ -9,7 +9,8 @@ created_at: 2022-01-08T10:09:43Z
 =
 ```
 2022.1.26
-  1、#src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07
+  1、解决git.openwrt.org无法访问问题
+  #src-git routing https://git.openwrt.org/feed/routing.git;openwrt-19.07
   src-git routing https://github.com/openwrt/routing.git;openwrt-19.07
   
 2022.1.8
